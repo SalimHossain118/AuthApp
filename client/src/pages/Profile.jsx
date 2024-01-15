@@ -18,7 +18,8 @@ import {
   deleteUserSuccess,
   deleteUserFailure,
   signOut,
-} from "../redux/user/userSlice";
+} from "../redux/user/userSlice"; //
+
 import { useDispatch } from "react-redux";
 
 const Profile = () => {
