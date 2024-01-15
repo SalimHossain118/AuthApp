@@ -21,6 +21,7 @@ mongoose
 const app = express();
 app.use(bodyParser.json());
 app.use(express.json());
+app.use(cookieParser());
 
 app.listen(8000, () => {
   console.log("Server is listening on 8000");
